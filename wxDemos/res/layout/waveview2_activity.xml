@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/holo_purple" >
+
+	<com.wx.demo.wave.WaveView2
+		android:id="@+id/wave_view2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#f7f7f1"
+		wave:wave_color="#12a86b"
+		wave:border_color="#12a86b"
+		wave:progress="50"
+		/>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <SeekBar
+	        android:id="@+id/wa2_seek_bar"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="20dp"
+	        android:progress="100"
+	        android:max="200" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="20dp"
+	        android:text="100"/>
+
+	    <SeekBar
+	        android:id="@+id/wa2_seek_bar1"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+ 			android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="50dp"
+	        android:progress="100"
+	        android:max="200" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar1"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="50dp" 
+	        android:text="100" />
+
+	    <SeekBar
+	        android:id="@+id/wa2_seek_bar2"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="80dp"
+	        android:progress="100"
+	        android:max="200" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar2"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="80dp"
+	        android:text="100" />
+	    
+	     <SeekBar
+	        android:id="@+id/wa2_seek_bar3"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="110dp"
+	        android:progress="100"
+	        android:max="200" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar3"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="110dp"
+	        android:text="100" />
+	    
+	     <SeekBar
+	        android:id="@+id/wa2_seek_bar4"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="140dp"
+	        android:progress="100"
+	        android:max="200" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar4"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="140dp"
+	        android:text="100" />
+	    
+	    <Button android:id="@+id/wa2_reset1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginBottom="170dp"
+	        android:text="reset"/>
+	    
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <SeekBar
+	        android:id="@+id/wa2_seek_bar5"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="20dp"
+	        android:progress="16"
+	        android:max="100" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar5"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="20dp"
+	        android:text="16" />
+
+	    <SeekBar
+	        android:id="@+id/wa2_seek_bar6"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+ 			android:layout_alignParentTop="true"
+	        android:layout_marginTop="50dp"
+	        android:progress="16"
+	        android:max="100" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar6"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="50dp"
+	        android:text="16" />
+
+	    <SeekBar
+	        android:id="@+id/wa2_seek_bar7"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="80dp"
+	        android:progress="16"
+	        android:max="100" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar7"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="80dp"
+	        android:text="16" />
+	    
+	     <SeekBar
+	        android:id="@+id/wa2_seek_bar8"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="110dp"
+	        android:progress="16"
+	        android:max="100" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar8"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="110dp"
+	        android:text="16" />
+	    
+	     <SeekBar
+	        android:id="@+id/wa2_seek_bar9"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="140dp"
+	        android:progress="16"
+	        android:max="100" />
+	    
+	    <TextView 
+	        android:id="@+id/wa2_text9"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/wa2_seek_bar9"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="140dp"
+	        android:text="16" />
+	    
+	    <Button android:id="@+id/wa2_reset2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="170dp"
+	        android:text="reset"/>
+	    
+	</RelativeLayout>
+	
+</FrameLayout>
+

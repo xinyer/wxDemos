@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 xmlns:wave="http://schemas.android.com/apk/res-auto"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+			  android:background="@color/holo_purple"
+			  >
+
+	<com.wx.demo.wave.WaveView
+		android:id="@+id/wave_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#f7f7f1"
+		wave:wave_color="#12a86b"
+		wave:border_color="#12a86b"
+		wave:progress="50"
+		/>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+	    <SeekBar
+	        android:id="@+id/seek_bar"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="20dp"
+	        android:progress="50" />
+	    
+	    <TextView 
+	        android:id="@+id/wa_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/seek_bar"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="20dp"
+	        android:text="progress:50" />
+
+	    <SeekBar
+	        android:id="@+id/seek_bar1"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+ 			android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="50dp"
+	        android:max="200"
+	        android:progress="150" />
+	    
+	    <TextView 
+	        android:id="@+id/wa_text1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/seek_bar1"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="50dp"
+	        android:text="x-zoom:150" />
+
+	    <SeekBar
+	        android:id="@+id/seek_bar2"
+	        android:layout_width="250dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="80dp"
+	        android:progress="10" />
+	    
+	    <TextView 
+	        android:id="@+id/wa_text2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/seek_bar2"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="80dp"
+	        android:text="y-zoom:10" />
+	    
+	</RelativeLayout>
+	
+</FrameLayout>
+

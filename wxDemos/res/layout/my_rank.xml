@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/my_rank_height"
+    android:background="#FF0000" >
+    
+    <ImageView 
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"/>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv">
+    
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的人气值" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234" />
+        
+    </LinearLayout>
+    
+</RelativeLayout>

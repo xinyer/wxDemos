@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top" >
+    
+    <!-- <com.wx.demo.wave.WaveView
+        android:id="@+id/wave_view" 
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/> -->
+    
+    <com.wx.demo.wave.SiriWaveView
+        android:id="@+id/siri_wave_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp" />
+    
+    <ImageView
+        android:id="@+id/microphone_iv"
+        android:layout_width="96dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ptt_demo_microphone_normal"
+        android:contentDescription="@null"
+        android:src="@drawable/voice_preasure_clip" />
+    
+    <SeekBar 
+        android:id="@+id/wave_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+    
+</LinearLayout>

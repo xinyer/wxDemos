@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/t9_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="14sp"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/key1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"/>
+        <Button 
+            android:id="@+id/key2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2 ABC"/>
+        <Button 
+            android:id="@+id/key3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3 DEF"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/key4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4 GHI"/>
+        <Button 
+            android:id="@+id/key5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5 JKL"/>
+        <Button 
+            android:id="@+id/key6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6 MNO"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/key7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7PQRS"/>
+        <Button 
+            android:id="@+id/key8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8 TUV"/>
+        <Button 
+            android:id="@+id/key9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9 WXYZ"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/key_dismiss"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="收起"/>
+        <Button 
+            android:id="@+id/key0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"/>
+        <Button 
+            android:id="@+id/key_del"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="删除"/>
+    </LinearLayout>
+
+</LinearLayout>

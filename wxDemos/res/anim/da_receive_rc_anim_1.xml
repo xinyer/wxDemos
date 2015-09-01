@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:drawable="@drawable/recent_da_animation_paw1"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw2"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw3"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw4"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw5"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw6"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw7"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw8"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw9"  android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw10" android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw11" android:duration="60" />
+	<item android:drawable="@drawable/recent_da_animation_paw12" android:duration="60" />
+</animation-list>
