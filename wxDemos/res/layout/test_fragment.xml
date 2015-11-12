@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@android:color/black">
     
     <com.wx.demo.test.DaReceiveRecentAnimation 
         android:id="@+id/test_anim"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        />
+        android:visibility="gone"/>
     
     <com.wx.demo.test.DaSendRecentAniamtion
         android:id="@+id/test_anim2"
         android:layout_width="200dp"
-        android:layout_height="200dp" />
+        android:layout_height="200dp"
+        android:visibility="gone"/>
     
     <Button 
         android:id="@+id/test_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="start animation"/>
+
+    <com.wx.demo.progress.TimeProgress
+        android:id="@+id/time"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <com.wx.demo.svg.PathView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pathView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:pathColor="#22bd7a"
+        app:svg="@raw/dov_loading"
+        app:pathWidth="20"/>
 
 </LinearLayout>
